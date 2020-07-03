@@ -1,0 +1,229 @@
+{
+    "persons": [
+        {
+            "roles": [
+                1, 2
+            ],
+            "id": 1,
+            "name": "Mattias",
+            "lastName": "Sjonell",
+         
+            "technologies": [
+                1,2
+            ],
+            "projects": [
+                [1, 2],
+                [2, 1],
+                [3, 3]
+            ],
+            "hobbys": "Airsoft, Fishing"
+        },
+        {
+            "id": 2,
+            "name": "Mattias",
+            "lastName": "Sjonell",
+            "roles": [
+                1
+            ],
+            "technologies": [
+                1
+            ],
+            "projects": [
+                [1, 1],
+                [2, 1],
+                [3, 1]
+            ],
+            "hobbys": "Airsoft, Fishing"
+        }
+    ],
+    "technologies": [
+        {
+            "id": 1,
+            "name": "C#"
+        },
+        {
+            "id": 2,
+            "name": "Angular"
+        }
+    ],
+    "roles": [
+        {
+            "id": 1,
+            "name": "Intern"
+        },
+        {
+            "id": 2,
+            "name": "Front-end Developer"
+        },
+        {
+            "id": 3,
+            "name": "Back-end Developer"
+        }
+    ],
+    "teams": [
+        {
+            "id": "1",
+            "name": "Swedish boys",
+            "desc": "Lorem ipsum dolor sit amet, ?",
+            "persons": [
+                1,
+                2
+            ]
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name": "DXC department",
+            "desc": "Very efficent department",
+            "teams": [
+                1,
+                2,
+                3
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "name": "Test",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error quibusdam laboriosam hic repellat. Voluptates earum error, cumque, quidem",
+            "images": [
+                "work1.jpg",
+                "content7.jpg",
+                "content1.jpg",
+                "content2.jpg"
+            ],
+
+            "logos": [
+                "Ericsson.png",
+                "intel.png"
+            ],
+            "persons": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Test",
+            "desc": "lkajfouheo",
+            "images": [
+                "work4.jpg",
+                "content3.jpg"
+            ],
+
+            "logos": [
+                "intel.png",
+                "EA.png"
+            ],
+            "persons": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Bank Of Ireland Webiste",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cumque excepturi consectetur dolorem sed aspernatur. Accusamus impedit exercitationem ea provident dolores consectetur, corrupti vel fuga deleniti qui laborum minima repellat!",
+            "images": [
+                "work3.jpeg",
+                "content3.jpg",
+                "content5.jpg"
+            ],
+
+            "logos": [
+                "intel.png"
+            ],
+            "persons": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Rex",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cumque excepturi consectetur dolorem sed aspernatur. Accusamus impedit exercitationem ea provident dolores consectetur, corrupti vel fuga deleniti qui laborum minima repellat!",
+            "images": [
+                "projectImageFour.png",
+                "content4.jpg",
+                "content6.jpg"
+            ],
+            "logos": [
+                "Asus.png",
+                "EA.png",
+                "intel.png"
+            ],
+            "persons": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": 5,
+            "name": "DXC Tour App",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cumque excepturi consectetur dolorem sed aspernatur. Accusamus impedit exercitationem ea provident dolores consectetur, corrupti vel fuga deleniti qui laborum minima repellat!",
+            "images": [
+                "projectImageOne.png",
+                "content6.jpg",
+                "content1.jpg",
+                "content3.jpg"
+            ],
+            "logos": [
+                "Ericsson.png",
+                "Asus.png"
+            ],
+            "persons": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Github Website",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cumque excepturi consectetur dolorem sed aspernatur. Accusamus impedit exercitationem ea provident dolores consectetur, corrupti vel fuga deleniti qui laborum minima repellat!",
+            "images": [
+                "projectImageFour.png",
+                "content2.jpg",
+                "content5.jpg",
+                "content7.jpg"
+            ],
+            "logos": [
+                "EA.png",
+                "intel.png"
+            ],
+            "persons": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "id": 7,
+            "name": "CBI Mobile Application",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cumque excepturi consectetur dolorem sed aspernatur. Accusamus impedit exercitationem ea provident dolores consectetur, corrupti vel fuga deleniti qui laborum minima repellat!",
+            "images": [
+                "projectImageTwo.png",
+                "content4.jpg",
+                "content2.jpg",
+                "content1.jpg"
+            ],
+            "logos": [
+                "intel.png",
+                "Asus.png",
+                "EA.png",
+                "Ericsson.png"
+            ],
+            "persons": [
+                [
+                    1
+                ]
+            ]
+        }
+    ]
+}
